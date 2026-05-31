@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="#0a0a0f"/>
+  
+  <!-- Gold gradient def -->
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5c842;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6a817;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="whiteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f0f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0c0cc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Chessboard pattern (4x4 mini) -->
+  <g transform="translate(156, 80)">
+    <!-- Board squares -->
+    <rect x="0"   y="0"   width="50" height="50" fill="#e8d5b0"/>
+    <rect x="50"  y="0"   width="50" height="50" fill="#8b6343"/>
+    <rect x="100" y="0"   width="50" height="50" fill="#e8d5b0"/>
+    <rect x="150" y="0"   width="50" height="50" fill="#8b6343"/>
+
+    <rect x="0"   y="50"  width="50" height="50" fill="#8b6343"/>
+    <rect x="50"  y="50"  width="50" height="50" fill="#e8d5b0"/>
+    <rect x="100" y="50"  width="50" height="50" fill="#8b6343"/>
+    <rect x="150" y="50"  width="50" height="50" fill="#e8d5b0"/>
+
+    <rect x="0"   y="100" width="50" height="50" fill="#e8d5b0"/>
+    <rect x="50"  y="100" width="50" height="50" fill="#8b6343"/>
+    <rect x="100" y="100" width="50" height="50" fill="#e8d5b0"/>
+    <rect x="150" y="100" width="50" height="50" fill="#8b6343"/>
+
+    <rect x="0"   y="150" width="50" height="50" fill="#8b6343"/>
+    <rect x="50"  y="150" width="50" height="50" fill="#e8d5b0"/>
+    <rect x="100" y="150" width="50" height="50" fill="#8b6343"/>
+    <rect x="150" y="150" width="50" height="50" fill="#e8d5b0"/>
+
+    <!-- Board border -->
+    <rect x="0" y="0" width="200" height="200" rx="4" fill="none" stroke="url(#goldGrad)" stroke-width="5"/>
+
+    <!-- White King piece (centered top-left quadrant) -->
+    <text x="25" y="48" text-anchor="middle" font-size="42" fill="url(#whiteGrad)">♔</text>
+
+    <!-- Black Queen piece (centered bottom-right quadrant) -->
+    <text x="175" y="198" text-anchor="middle" font-size="42" fill="#1a1a2e">♛</text>
+
+    <!-- Gold accent dot - top right -->
+    <circle cx="175" cy="25" r="10" fill="url(#goldGrad)"/>
+    <!-- Gold accent dot - bottom left -->
+    <circle cx="25" cy="175" r="10" fill="url(#goldGrad)"/>
+  </g>
+
+  <!-- VS lightning bolt in center -->
+  <text x="256" y="320" text-anchor="middle" font-size="36" font-weight="900" fill="url(#goldGrad)" font-family="Arial Black, sans-serif">⚡</text>
+
+  <!-- CHESSDUEL text -->
+  <text x="256" y="390" text-anchor="middle" 
+        font-family="Arial Black, Impact, sans-serif" 
+        font-size="52" 
+        font-weight="900"
+        letter-spacing="4"
+        fill="url(#goldGrad)">CHESS</text>
+  <text x="256" y="445" text-anchor="middle" 
+        font-family="Arial Black, Impact, sans-serif" 
+        font-size="52" 
+        font-weight="900"
+        letter-spacing="4"
+        fill="#f0f0f5">DUEL</text>
+
+  <!-- Tagline -->
+  <text x="256" y="482" text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        letter-spacing="6"
+        fill="#6b6b8a">PLAY · COMPETE · WIN</text>
+</svg>
