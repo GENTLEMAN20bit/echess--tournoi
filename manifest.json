@@ -1,17 +1,15 @@
 {
-  "name": "ChessDuel — Tournois en ligne",
+  "name": "ChessDuel",
   "short_name": "ChessDuel",
-  "description": "Mini-tournois d'échecs en ligne pour étudiants et jeunes professionnels",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0a0f",
   "theme_color": "#f5c842",
-  "orientation": "portrait",
   "icons": [
     {
-      "src": "logo.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]
